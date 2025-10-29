@@ -1,17 +1,10 @@
-# Kylejosterman Agentsync
+# Agentsync
 
 ## How do I install these formulae?
 
-`brew install kylejosterman/agentsync/<formula>`
+`brew install kylejosterman/agentsync/agentsync`
 
-Or `brew tap kylejosterman/agentsync` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "kylejosterman/agentsync"
-brew "<formula>"
-```
+Or `brew tap kylejosterman/agentsync` and then `brew install agentsync`.
 
 ## Documentation
 
