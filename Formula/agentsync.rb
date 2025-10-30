@@ -8,9 +8,8 @@ class Agentsync < Formula
 
   bottle do
     root_url "https://github.com/kylejosterman/homebrew-agentsync/releases/download/agentsync-0.2.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "e0f30b0d05729be80e8e6c2722c4ecebe24c26ee783deedc175b0d97b528e17e"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "329357d52a3faf8aa6476b32cff6557b90e77518a678af601c39929afab2fac6"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "87bd1a0b7c6d029a23f0e9efbfd5ec84ba0c7f6e4ad4e3cc7c08982fa782ed4c"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "3d841acfa3da23c35515d32f86fafd4d9e671630a6edaa8ff4247252c99343d7"
   end
 
   depends_on "rust" => :build
